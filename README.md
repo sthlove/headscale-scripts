@@ -12,7 +12,7 @@ Automatic installation of [Headscale](https://github.com/juanfont/headscale) wit
 ## Server
 Download the scrips
 ```bash
-  git clone https://github.com/Otorexer/headscale-scripts.git
+  git clone https://github.com/sthlove/headscale-scripts
   cd headscale-scripts
 ```
 Install headscale
