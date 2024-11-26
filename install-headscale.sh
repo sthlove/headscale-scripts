@@ -15,8 +15,8 @@ publicip=$(curl ipinfo.io/ip)
 echo "What is the server IP or DNS? Default: Your public IP ($publicip)"
 read headscaleip
 headscaleip=${headscaleip:-$publicip}
-sed -i "s!server_url: http://.*:8080!server_url: http://$headscaleip:8080!" /etc/headscale/config.yaml
-sed -i "s!listen_addr: 127.0.0.1:8080!listen_addr: 0.0.0.0:8080!" /etc/headscale/config.yaml
+sed -i "s!server_url: http://.*:8081!server_url: http://$headscaleip:8081!" /etc/headscale/config.yaml
+sed -i "s!listen_addr: 127.0.0.1:8081!listen_addr: 0.0.0.0:8081!" /etc/headscale/config.yaml
 sed -i '68d' /etc/headscale/config.yaml
 
 #Enables and Starts the headscale server
