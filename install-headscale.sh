@@ -7,7 +7,7 @@ apt update && apt upgrade -y
 apt install wget nano -y
 
 #Installs Headscale
-wget --output-document=headscale.deb   https://github.com/juanfont/headscale/releases/download/v0.22.3/headscale_0.22.3_linux_amd64.deb
+wget --output-document=headscale.deb   https://github.com/juanfont/headscale/releases/download/v0.23.0/headscale_0.23.0_linux_amd64.deb
 sudo dpkg --install headscale.deb
 
 #Asks basic Configuration for headscale
