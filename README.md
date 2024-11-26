@@ -1,7 +1,7 @@
 
 # Headscale-scripts
 
-Automatic installation of [Headscale](https://github.com/juanfont/headscale) with a script to set up your own Headscale and fast creation and removal of users.
+Automatic installation of [Headscale](https://github.com/juanfont/headscale) with a script to set up your own Headscale and fast creation and removal of users.为了尽量不和其他软件端口冲突默认端口8080改成了8081
 ## Features
 
 - Automatic installation
